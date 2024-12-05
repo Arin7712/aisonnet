@@ -1,7 +1,15 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "your-image-domain.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "assets.aceternity.com",
+      },
+    ],
+  },
 };
-
-export default nextConfig;
