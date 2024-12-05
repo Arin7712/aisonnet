@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       <div className="mt-10">
-        <AnimatedButton/>
+        <AnimatedButton black="no"/>
       </div>
     </section>
   );
