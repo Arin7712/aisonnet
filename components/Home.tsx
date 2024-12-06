@@ -11,6 +11,7 @@ import { useEffect, useRef } from "react";
 import dynamic from "next/dynamic"; // Import for dynamic loading
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import Topbar from "@/components/Topbar";
+import About from "./About";
 
 const Home = () => {
   const scrollRef = useRef(null);
@@ -24,7 +25,7 @@ const Home = () => {
       scroll = new LocomotiveScroll({
         el: scrollRef.current,
         smooth: true,
-        multiplier: 1.2, // Adjust scroll pace
+        multiplier: 0.5, // Adjust scroll pace
       });
     }
 
@@ -42,6 +43,7 @@ const Home = () => {
         <Services />
         <Services2 />
         <TimelineContext />
+        <About/>
         <AccordionDemo />
         <Footer />
       </main>

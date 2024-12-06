@@ -24,7 +24,7 @@ const AnimatedButton = ({black} : {black: string}) => {
 
       {/* Text */}
       <div className='w-[200px]'>
-        <h4 className={black == 'yes' ? "font-medium text-gray-200 text-md md:text-sm" : "font-medium text-gray-700 text-md md:text-sm"}>
+        <h4 className={black == 'yes' ? "font-medium text-gray-200 text-xs md:text-sm" : "font-medium text-gray-700 text-xs md:text-sm"}>
           Schedule your first meeting with, 
           <span className='text-gray-400 text-sm'>
             {" "}AI Sonnet

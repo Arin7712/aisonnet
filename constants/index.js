@@ -2,38 +2,34 @@
 export const navItems = [
     {
         title: 'Services',
-        id: '#services',
+        id: 'services',
     },
     {
         title: 'Pricing',
-        id: '#pricing'
+        id: 'pricing'
     }, 
     {
         title: 'About',
-        id:'#about'
-    },
-    {
-        title: 'Blog',
-        id: '#blog'
+        id:'about'
     }
 ]
 
 export const services = [
     {
         title: '🍃 AI Chatbots',
-        description: 'Transform your business with AI automation: streamline workflows, boost productivity, reduce errors, and save time.',
+        description: 'Chatbots provide 24/7 instant support, improving customer experience while reducing costs.',
     },
     {
         title: '🤖 Email Automations',
-        description: 'Transform your business with AI automation: streamline workflows, boost productivity, reduce errors, and save time.',
+        description: 'AI-powered email automation personalizes communication at scale, delivering relevant content based on user behavior.',
     },
     {
-        title: '⭐ Email Automations',
-        description: 'Transform your business with AI automation: streamline workflows, boost productivity, reduce errors, and save time.',
+        title: '⭐ Sales Automations',
+        description: 'AI sales automation streamlines lead management, nurturing prospects with personalized follow-ups.',
     },
     {
-        title: '🎯 Email Automations',
-        description: 'Transform your business with AI automation: streamline workflows, boost productivity, reduce errors, and save time.',
+        title: '🎯 AI Consulting',
+        description: 'We curate the best AI tools and best practices to help your business automate reprtitive tasks.',
     },
 
 ]
@@ -43,24 +39,24 @@ export const serviceSteps = [
         id: 1,
         title: 'Initial Consulting',
         description: 'Schedule a call to define your project scope, budget, timeline, and deliverables.',
-        duration: '2-4 days'
+        duration: '↳ 1-2 days'
     },
     {
         id: 2,
-        title: 'Initial Consulting',
-        description: 'Schedule a call to define your project scope, budget, timeline, and deliverables.',
-        duration: '2-4 days'
+        title: 'Service Development',
+        description: 'Build cutting edge workflows and tasks that make your work easy and efficient',
+        duration: '↳ 4-6 days'
     },
     {
         id: 3,
-        title: 'Initial Consulting',
-        description: 'Schedule a call to define your project scope, budget, timeline, and deliverables.',
-        duration: '2-4 days'
+        title: 'Testing and Refining',
+        description: 'We run a thorough test and take inputs from you regarding changes and scopes for improvement.',
+        duration: '↳ 2-3 days'
     },
     {
         id: 4,
-        title: 'Initial Consulting',
-        description: 'Schedule a call to define your project scope, budget, timeline, and deliverables.',
-        duration: '2-4 days'
+        title: 'Deployment',
+        description: 'Now we deploy the new tech and workflows for your business',
+        duration: '↳ 1 day'
     }
 ]

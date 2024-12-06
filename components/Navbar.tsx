@@ -5,8 +5,10 @@ import Close from "@mui/icons-material/Close";
 import Menu from "@mui/icons-material/Menu";
 import Mail from "@mui/icons-material/Mail";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import Link from "next/link";
 import {navItems} from '@/constants'
+import { Link as ScrollLink, Element } from "react-scroll";
+import Link from "next/link";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,21 +17,28 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const scrollToSection = (id:any) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div>
       <div className="md:block hidden">
         <nav className="flex items-center border-b-[1px] border-gray-100 p-4 w-full justify-evenly">
           <div className="flex items-center gap-6">
             <h2 className="text-md font-bold">AI Sonnet.</h2>
-            <div>
+            {/*<div>
               <ul className="flex flex-row items-center text-sm text-gray-500 font-normal gap-3">
                 {navItems.map((item, index) => (
-                  <Link key={index} href={`#${item.title}`} scroll={false}>
+                  <button key={index} onClick={() => scrollToSection('services')} >
                   <li  className="hover:text-gray-900 hover:cursor-pointer transition-all duration-300">{item.title}</li>
-                  </Link>
+                  </button>
                 ))}
               </ul>
-            </div>
+            </div>*/}
           </div>
           <div className="flex items-center gap-2">
             <button className="rounded-2xl bg-[#f4f4f5] px-4 py-2 text-sm text-black font-medium">

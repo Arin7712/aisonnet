@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className=" mt-[6rem] text-white bg-black p-6 flex md:items-center flex-col">
       <div className="">
-      <section className="rounded-md p-8 md:p-12 flex flex-col gap-6 md:gap-0 md:flex-row md:items-center border-[1px] border-gray-800 justify-between mt-6">
+      <section className="rounded-md p-6 md:p-12 flex flex-col gap-6 md:gap-0 md:flex-row md:items-center border-[1px] border-gray-800 justify-between mt-6">
         <div className="w-full md:w-2/5 flex flex-col gap-4">
           <h1 className="text-white text-lg font-medium">
             Looking for more answers?
@@ -23,11 +23,11 @@ const Footer = () => {
       </section>
       </div>
 
-    <div className="rounded-md p-10 flex md:items-center justify-between mt-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-20 md:mt-6">
+    <div className="rounded-md p-10 flex  justify-between mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-80 md:mt-6">
         <div className="h-[50px] md:h-[160px] flex flex-col justify-between w-full md:w-52">
-          <h1 className="font-medium text-lg">AI Sonnet</h1>
-          <p className="text-gray-400 text-sm font-normal">© ️2024 - BuildBloq</p>
+          <h1 className="font-bold text-lg">AI Sonnet</h1>
+          <p className="text-gray-400 text-sm font-normal">2024 - AI Sonnet ©</p>
         </div>
         <div className="h-[200px] order-[-1] md:order-1 flex gap-20 w-full md:w-52">
           <div>
