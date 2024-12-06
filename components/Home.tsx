@@ -25,7 +25,7 @@ const Home = () => {
       scroll = new LocomotiveScroll({
         el: scrollRef.current,
         smooth: true,
-        multiplier: 0.5, // Adjust scroll pace
+        multiplier: 0.3, // Adjust scroll pace
       });
     }
 
