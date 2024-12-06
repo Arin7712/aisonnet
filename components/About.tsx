@@ -22,13 +22,13 @@ const About = () => {
         </div>
         <div className="border-gray-200 md:border-l-2 border-t-2 md:border-t-0 h-0 md:h-12 w-full md:w-0"></div>
         <div className="md:text-center">
-          <h2>20 hrs</h2>
-          <p className="text-gray-400 text-sm font-normal">Weekly Saved through AI</p>
+          <h2>📢 Automate</h2>
+          <p className="text-gray-400 text-sm font-normal">Streaming workflows for maximum efficiency</p>
         </div>
         <div className="border-gray-200 md:border-l-2 border-t-2 md:border-t-0 h-0 md:h-12 w-full md:w-0"></div>
         <div className="md:text-center">
-          <h2>40%</h2>
-          <p className="text-gray-400 text-sm font-normal">Reduced Cost by Automating</p>
+          <h2>☑️ Accleration</h2>
+          <p className="text-gray-400 text-sm font-normal">Scaling your business without delays</p>
         </div>
       </div>
 
