@@ -40,13 +40,15 @@ const Navbar = () => {
             </div>*/}
           </div>
           <div className="flex items-center gap-2">
-            <button className="rounded-2xl bg-[#f4f4f5] px-4 py-2 text-sm text-black font-medium">
+            {/*<button className="rounded-2xl bg-[#f4f4f5] px-4 py-2 text-sm text-black font-medium">
               Our Work
-            </button>
+            </button>*/}
 
+            <Link href="https://cal.com/aringawande/15min?month=2024-12&date=2024-12-07">
             <button className="rounded-2xl bg-[#9c6ef7] px-4 py-2 text-sm text-white font-medium">
               Book a call
             </button>
+            </Link>
           </div>
         </nav>
       </div>
