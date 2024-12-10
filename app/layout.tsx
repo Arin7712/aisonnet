@@ -18,7 +18,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "AI Flow",
+  title: "AI Sonnet | AI Automations Agency",
   description: "We automate your daily business workflows.",
 };
 

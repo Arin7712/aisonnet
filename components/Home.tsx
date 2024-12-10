@@ -12,6 +12,7 @@ import dynamic from "next/dynamic"; // Import for dynamic loading
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import Topbar from "@/components/Topbar";
 import About from "./About";
+import BlackRock from "./BlackRock";
 
 const Home = () => {
   const scrollRef = useRef(null);
@@ -40,10 +41,10 @@ const Home = () => {
         <Topbar />
         <Navbar />
         <Hero />
-        <Services />
+        <BlackRock/>
+        <About/>
         <Services2 />
         <TimelineContext />
-        <About/>
         <AccordionDemo />
         <Footer />
       </main>

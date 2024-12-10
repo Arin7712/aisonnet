@@ -15,7 +15,7 @@ const About = () => {
         </video>
       </div>
 
-      <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-16 mt-10 md:mt-16">
+      <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-16 mt-[6rem] md:mt-16">
         <div className="md:text-center">
           <h2>💡Innovate</h2>
           <p className="text-gray-400 text-sm font-normal">Creating faster digital solutions</p>
@@ -32,8 +32,9 @@ const About = () => {
         </div>
       </div>
 
+{/*
       <div 
-  className="flex flex-col md:flex-row items-start md:items-center w-full rounded-lg md:w-[40rem] gap-4 md:gap-16 mt-[4rem] md:mt-16 bg-gray-100 p-2 relative overflow-hidden"
+  className="flex flex-col md:flex-row items-start md:items-center w-full rounded-lg md:w-[40rem] gap-4 md:gap-16 mt-[6rem] md:mt-16 bg-gray-100 p-2 relative overflow-hidden"
   style={{
     backgroundImage: "url('/assets/aisonnet-graphics.avif')",
     backgroundPosition: "right",
@@ -50,7 +51,7 @@ const About = () => {
     At AI Sonnet, our mission is to empower businesses with cutting-edge AI solutions that simplify operations, enhance customer experiences, and drive growth. We aim to make AI accessible and impactful by creating personalized, efficient, and innovative automation tools. <br/><br/>By combining technology with creativity, we strive to transform the way businesses interact, communicate, and succeed in an ever-evolving digital world. Together, we shape the future of intelligent automation.
     </p>
   </div>
-</div>
+</div>*/}
 
 
 

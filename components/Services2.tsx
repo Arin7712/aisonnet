@@ -3,7 +3,7 @@ import React from 'react'
 
 const Services2 = () => {
   return (
-    <div className="h-auto md:h-screen flex justify-center mt-8 md:p-0 p-6">
+    <div className="h-auto md:h-screen flex justify-center mt-[4rem] md:p-0 p-6">
       <div className="z-[-2] p-8 rounded-xl h-auto w-full md:w-[44%] bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] flex flex-col">
         <div className="flex flex-col pt-4 md:items-center md:justify-center">
             <div className='md:text-center'>

@@ -12,4 +12,10 @@ module.exports = {
       },
     ],
   },
+  extend: {
+    backgroundImages : {
+      'fade-to-white': 'linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1))',
+
+    }
+  }
 };
